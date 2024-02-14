@@ -1,0 +1,17 @@
+.formWrapper {
+    animation: formOpen 1s;
+
+
+    @keyframes formOpen {
+
+        from {
+            left: -50%;
+        }
+
+        to {
+
+            left: 0;
+        }
+
+    }
+}
